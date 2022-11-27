@@ -1,0 +1,26 @@
+<!-- For explanattion of this code watch the video on Efficient Learning world youtube channle.
+The youtube video link for the explanation of this code is : 
+-->
+<html>
+    <head>
+        <title>Efficient Learning World</title>
+    </head>
+    <body>
+      <input type="password" id="password">
+      <br/>
+      <input type="checkbox" onclick="ShowHide()">Click here</input>
+    </body>
+    <script>
+           function ShowHide()
+           {
+            const fieldget=document.getElementById("password");
+            if(fieldget.type==="password")
+            {
+                fieldget.type="text";
+            }
+            else{
+                fieldget.type="password";
+            }
+           }
+        </script>
+</html>
